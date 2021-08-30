@@ -101,16 +101,19 @@ To make this REST API useful you have to follow this examples of how to hit hit 
    --header 'Content-Type: application/x-www-form-urlencoded' \
    --data-urlencode 'msg=This is my first job :)'
    ```
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot1]](https://example.com)
   
 2. Create a petition to pop
    ```yaml
    curl --location --request POST '127.0.0.1:4040/api/queue/pop'
    ```
+[![Product Name Screen Shot][product-screenshot2]](https://example.com)
+  
 3. Finally, create a petition to count
    ```yaml
    curl --location --request GET '127.0.0.1:4040/api/queue/count'
    ```
+[![Product Name Screen Shot][product-screenshot3]](https://example.com)
  
 <!-- CONTACT -->
 ## Contact
@@ -144,3 +147,6 @@ Franco Brevis - [@FranckyBrevis](https://twitter.com/FranckyBrevis) - franc.brev
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/franco-brevis-a1768916b/
 [product-screenshot]: images/screenshot.png
+[product-screenshot1]: images/screenshot1.png
+[product-screenshot2]: images/screenshot2.png
+[product-screenshot3]: images/screenshot3.png
