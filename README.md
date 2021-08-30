@@ -101,6 +101,7 @@ To make this REST API useful you have to follow this examples of how to hit hit 
    --header 'Content-Type: application/x-www-form-urlencoded' \
    --data-urlencode 'msg=This is my first job :)'
    ```
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
   
 2. Create a petition to pop
    ```yaml
