@@ -99,13 +99,10 @@ To make this REST API useful you have to follow this examples of how to hit hit 
 
 1. Create a petition to push
    ```sh
-   curl --location --request POST '127.0.0.1:4040/api/queue/push' \--header 'Content-Type: application/x-www-form-urlencoded' \--data-urlencode 'msg=This is my first job :)'
+  $ curl --location --request POST '127.0.0.1:4040/api/queue/push' \
+  --header 'Content-Type: application/x-www-form-urlencoded' \
+  --data-urlencode 'msg=This is my first job :)'
    ```
-  $ git clone git://github.com/rtomayko/git-sh.git
-  $ cd git-sh
-  $ make
-  $ sudo make install
-  
 2. Create a petition to pop
    ```sh
    curl --location --request POST '127.0.0.1:4040/api/queue/pop'
