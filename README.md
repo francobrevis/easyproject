@@ -116,7 +116,7 @@ To make this REST API useful you have to follow this examples of how to hit hit 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@FranckyBrevis](https://twitter.com/FranckyBrevis) - franc.brevis@gmail.com
+Franco Brevis - [@FranckyBrevis](https://twitter.com/FranckyBrevis) - franc.brevis@gmail.com
 
 
 
