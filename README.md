@@ -1,4 +1,3 @@
-# easyproject
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -16,10 +15,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">The Redis Queue API</h3>
+  <h3 align="center">The Redis Queue API Docker</h3>
 
   <p align="center">
-    An awesome Redis Queue API wrote in node js!
+    An awesome Redis Queue API wrote in node js, and deploy with docker-compose!
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -60,16 +59,13 @@ The Redis Queue API it's a demo of some functionalities that Redis has, with thi
 * [LPOP](https://redis.io/commands/lpop)
 * [LRANGE](https://redis.io/commands/LRANGE)
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+The main tools that I use to build this are.
+* [Docker Compose](https://docs.docker.com/compose/)
+* [Node js](https://nodejs.org/es/)
+* [Redis](https://redis.io)
 
 
 
