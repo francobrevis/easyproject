@@ -45,7 +45,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+![Product Name Screen Shot][product-screenshot]
 
 The Redis Queue API it's a demo of some functionalities that Redis has, with this API wrote in node js you will learn 3 of them:
   
