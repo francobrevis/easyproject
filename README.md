@@ -72,12 +72,11 @@ The main tools that I use to build this are.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+To deploy this REST API with Redis Server you can do it by using the docker compose command, to bringing up all the modules and frameworks that I used.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+The only prerequisites is having installed docker compose.
 * npm
   ```sh
   npm install npm@latest -g
