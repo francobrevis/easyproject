@@ -21,8 +21,6 @@
   <p align="center">
     An awesome Redis Queue API wrote in node js!
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
