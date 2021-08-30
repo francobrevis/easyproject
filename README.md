@@ -54,7 +54,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-The Redis Queue API it's a demo of some functionalities that Redis has, with this API you will learn 3 of them:
+The Redis Queue API it's a demo of some functionalities that Redis has, with this API wrote in node js you will learn 3 of them:
   
 * [LPUSH](https://redis.io/commands/lpush)
 * [LPOP](https://redis.io/commands/lpop)
