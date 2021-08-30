@@ -110,7 +110,7 @@ To make this REST API useful you have to follow this examples of how to hit hit 
    ```
 3. Finally, create a petition to count
    ```yaml
-   curl --location --request GET '35.239.234.188:4040/api/queue/count'
+   curl --location --request GET '127.0.0.1:4040/api/queue/count'
    ```
  
 <!-- CONTACT -->
