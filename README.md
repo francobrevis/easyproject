@@ -97,11 +97,15 @@ The only prerequisites is having installed docker compose.
 To make this REST API useful you have to follow this examples of how to hit hit the REST API in order to push, pop o count in a queue saved in Redis.
 
 1. Create a petition to push
-   ```JS
-   curl --location --request POST '127.0.0.1:4040/api/queue/push' \
-  --header 'Content-Type: application/x-www-form-urlencoded' \
-  --data-urlencode 'msg=This is my first job :)'
+   ```sh
+   curl --location --request POST '127.0.0.1:4040/api/queue/push' \--header 'Content-Type: application/x-www-form-urlencoded' \--data-urlencode 'msg=This is my first job :)'
    ```
+  run: >
+  xvfb-run
+  ./mvnw -f my/pom.xml
+  clean verify
+  -DskipTests
+  
 2. Create a petition to pop
    ```sh
    curl --location --request POST '127.0.0.1:4040/api/queue/pop'
