@@ -77,10 +77,9 @@ To deploy this REST API with Redis Server you can do it by using the docker comp
 ### Prerequisites
 
 The only prerequisites is having installed docker compose.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+* [MAC OSX installation](https://docs.docker.com/desktop/mac/)
+* [Ubuntu installation](https://docs.docker.com/engine/install/ubuntu/)
+* [Other system installation](https://docs.docker.com/get-docker/)
 
 ### Installation
 
