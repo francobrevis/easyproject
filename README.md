@@ -100,11 +100,15 @@ To make this REST API useful you have to follow this examples of how to hit hit 
    ```sh
    curl --location --request POST '127.0.0.1:4040/api/queue/push' \--header 'Content-Type: application/x-www-form-urlencoded' \--data-urlencode 'msg=This is my first job :)'
    ```
-  run: >
-  xvfb-run
-  ./mvnw -f my/pom.xml
-  clean verify
-  -DskipTests
+  steps:
+  - name: Install Prerequisites
+    run: |
+      sudo apt-get update
+      bash -c "$line1 $line2 $line3"
+    env:
+    - line1='sudo apt-get install -y --no-install-recommends '
+    - line2='a very very long list'
+    - line3='of prerequisites'
   
 2. Create a petition to pop
    ```sh
