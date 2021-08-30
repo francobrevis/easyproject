@@ -56,9 +56,9 @@
 
 The Redis Queue API it's a demo of some functionalities that Redis has, with this API you will learn 3 of them:
   
-* LPUSH -> Insert all the specified values at the head of the list stored at key. If key does not exist, it is created as empty list before performing the push operations.
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+* [LPUSH](https://redis.io/commands/lpush)
+* [LPOP](https://redis.io/commands/lpop)
+* [LRANGE](https://redis.io/commands/LRANGE)
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
