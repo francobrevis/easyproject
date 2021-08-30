@@ -34,6 +34,7 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+        <li><a href="#usage">Usage</a></li>
       </ul>
     </li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -89,13 +90,11 @@ The only prerequisites is having installed docker compose.
    ```sh
    sudo docker-compose up
    ```
-
-
-
+  
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+To make this REST API useful you have to follow this examples of how to hit hit the REST API in order to push, pop o count in a queue saved in Redis.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
