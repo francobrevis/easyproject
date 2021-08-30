@@ -12,14 +12,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/francobrevis/easyproject">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">The Redis Queue API</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    An awesome Redis Queue API wrote in node js!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
